@@ -2,5 +2,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path("send-message/", views.send_message, name="send_message"),
+    path('', views.home, name='home'),  # URL ที่ว่างจะเรียกใช้ view 'home'
     ]
